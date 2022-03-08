@@ -3,10 +3,12 @@ package com.example.app.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.app.entity.Course;
 import com.example.app.repository.ICourseRepository;
 
+@Service
 public class CourseServiceImpl implements ICourseService {
 	
 	@Autowired
